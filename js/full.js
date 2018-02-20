@@ -21,6 +21,7 @@ function getParameterByName(name, url) {
 openPage = function() {
 
 	if (check) location.href = window.atob(getParameterByName('mobile'));
-	else location.href = window.atob(getParameterByName('desktop'));
+	//else location.href = window.atob(getParameterByName('desktop'));
+	else location.href = 'http://ouo.io/s/aUStkwh3?s=http://adf.ly/3464492/https://anonymz.github.io?' + (window.atob(getParameterByName('desktop'))).replace(/#/g, "%23");
 
 }
